@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yonashaile.yhailebibleapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bible_icon"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name="com.yonashaile.yhailebibleapplication.SplashActivity"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.MainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.ASVersionActivity"
+       
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.KJVersionActivity"
+       
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.ASVBookActivity"
+       
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.KJVBookActivity"
+       
+        android:theme="@style/AppTheme" />
+     <activity
+        android:name="com.yonashaile.yhailebibleapplication.ASVChapterActivity"
+       
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.KJVChapterActivity"
+       
+        android:theme="@style/AppTheme" />
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.ASVVerseActivity"
+       
+        android:theme="@style/AppTheme" />
+   
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.KJVVerseActivity"
+       
+        android:theme="@style/AppTheme" />
+    
+    <activity
+        android:name="com.yonashaile.yhailebibleapplication.Bookmarks"
+       
+        android:theme="@style/AppTheme" />
+</application>
+</manifest>

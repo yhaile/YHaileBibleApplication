@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawablePadding="30dp"
+            android:background="@drawable/my_custom_selector"
+            android:layout_margin="12px"
+            android:src="@drawable/asvbible"
+            android:text="American Standard Version" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+    
+
+   <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawablePadding="30dp"
+            android:background="@drawable/my_custom_selector"
+            android:layout_margin="12px"
+            android:src="@drawable/kjvbible"
+            android:text="American Standard Version" />
+</TableRow>
+</LinearLayout>

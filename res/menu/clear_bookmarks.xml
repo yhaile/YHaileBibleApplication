@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+         android:icon="@android:drawable/ic_menu_delete"
+        android:title="Clear All"/>
+     <item
+        android:id="@+id/back_to_main"
+        
+        android:showAsAction="ifRoom"
+        android:title="Home"/>
+     <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="Help"/>
+
+</menu>
